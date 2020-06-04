@@ -1,4 +1,4 @@
-package persistance.connection;
+package com.epam.mbbusbase.persistance.connection;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 

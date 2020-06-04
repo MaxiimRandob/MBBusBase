@@ -1,4 +1,4 @@
-package persistance.entity;
+package com.epam.mbbusbase.persistance.entity;
 
 import java.util.List;
 

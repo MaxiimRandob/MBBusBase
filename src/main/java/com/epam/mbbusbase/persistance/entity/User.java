@@ -1,4 +1,4 @@
-package persistance.entity;
+package com.epam.mbbusbase.persistance.entity;
 
 public class User {
     private int discriminator;

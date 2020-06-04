@@ -1,4 +1,4 @@
-package persistance.entity;
+package com.epam.mbbusbase.persistance.entity;
 
 public class Bus {
     private int busId;
