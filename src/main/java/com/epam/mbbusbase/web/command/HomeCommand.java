@@ -6,11 +6,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import static com.epam.mbbusbase.constant.PageUrlConstatns.HOME_PAGE;
+
 public class HomeCommand implements Command{
 
     @Override
     public Page perform(HttpServletRequest request) {
 
-        return null;
+        return new Page(HOME_PAGE);
     }
 }
