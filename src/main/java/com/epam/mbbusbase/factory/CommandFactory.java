@@ -1,8 +1,8 @@
 package com.epam.mbbusbase.factory;
 
-import com.epam.mbbusbase.web.command.Command;
-import com.epam.mbbusbase.web.command.HomeCommand;
-import com.epam.mbbusbase.web.command.NotFoundCommand;
+import com.epam.mbbusbase.web.command.*;
+import com.epam.mbbusbase.web.command.admin.AdminProfileCommand;
+import com.epam.mbbusbase.web.command.driver.DriverProfileCommand;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,6 +16,10 @@ public class CommandFactory {
 
         //--------- GET commands ----------//
         getCommandMap.put("/", new HomeCommand());
+        getCommandMap.put("/login", new LoginCommand());
+        getCommandMap.put("/register", new RegistrationCommand());
+        getCommandMap.put("/admin_profile", new AdminProfileCommand());
+        getCommandMap.put("/driver_profile", new DriverProfileCommand());
 
 
         //--------- POST commands ----------//
